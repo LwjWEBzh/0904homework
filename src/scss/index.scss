@@ -1,0 +1,23 @@
+@import "_mixin.scss";
+@import "common.scss";
+.wrap {
+    width: 100%;
+    height: 100%;
+    @include box_flex;
+    @include direction(column);
+}
+
+header {
+    width: 100%;
+    height: pxTorem(44px);
+}
+
+section {
+    width: 100%;
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    height: pxTroem(44px);
+}
